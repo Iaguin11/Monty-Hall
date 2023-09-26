@@ -1,0 +1,54 @@
+.area{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: var(--area-porta-width);
+  height: var(--area-porta-height);
+  margin: 5px;
+}
+.frame{
+  display: flex;
+  flex-grow: 1;
+  width: 90%;
+  border-top: 5px solid brown;
+  border-right: 5px solid brown;
+  border-left: 5px solid brown;
+}
+.porta{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  padding: 15px;
+  background-color: chocolate;
+}
+
+.number{
+  font-size: 3rem;
+}
+.handle{
+  position: absolute;
+  align-self: flex-start;
+  top: calc(0.45 * var(--area-porta-height));
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: brown;
+}
+.floor{
+  height: 10px;
+  width: 100%;
+  background-color: #ddd;
+}
+.selected{
+  border-top: 5px solid yellow;
+  border-right: 5px solid yellow;
+  border-left: 5px solid yellow;
+}
+.selected .number{
+  color: yellow
+}
+.selected .handle{
+  background-color: yellow
+}
