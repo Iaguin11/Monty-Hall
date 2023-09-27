@@ -1,14 +1,14 @@
 import { useState } from "react"
 import Door from "../components/Door"
 import PortaModel from "../model/door"
+import { addDoors, createDoor } from "../functions/door"
 
 export default function Home() {
-  const [p1, setP1] = useState(new PortaModel(1))
+
   
   return (
    <div style={{display: "flex"}}>
-   
-    <Door porta={p1}/>
+      <h1>Inicio do jogo</h1>
    </div>
   )
 }

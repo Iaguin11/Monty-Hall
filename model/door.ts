@@ -3,7 +3,7 @@ export default class DoorModel{
   #haveGift : boolean
   #selected: boolean
   #open : boolean
-  constructor(number: number, haveGift = false, selected = false, open= false){
+  constructor(number: number, haveGift = false, selected = false, open = false){
     this.#number = number
     this.#haveGift = haveGift
     this.#selected = selected
@@ -20,6 +20,9 @@ export default class DoorModel{
   }
   get open(){
     return this.#open
+  }
+  get closed(){
+    return !this.#open
   }
 
   deselect(){
