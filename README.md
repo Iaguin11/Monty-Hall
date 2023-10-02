@@ -3,18 +3,14 @@
 
 ## Descrição
 
-Este é um projeto utilizando o framework Next.js, Também utilizei ferramentas como React.js, TypeScript e Css.
-## Learn More
+Este é um projeto utilizando o framework Next.js, Também utilizei ferramentas como React.js, TypeScript e CSS.
+## 
+Monty Hall é um enigma probabilístico nomeado em homenagem ao apresentador de televisão Monty Hall.
+A situação envolve um participante em um jogo que precisa escolher uma de três portas. Apenas uma delas será premiada.
 
-To learn more about Next.js, take a look at the following resources:
+- Você deve escolher o número de portas que será criada.
+- Escolha a porta que será premiada.
+- Assim que terminar de configurar, clique em Iniciar para começar o jogo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Projeto. 
+- Acesse [aqui](https://door-zeta.vercel.app/).
