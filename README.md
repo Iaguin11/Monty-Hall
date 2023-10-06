@@ -12,5 +12,5 @@ A situação envolve um participante em um jogo que precisa escolher uma de trê
 - Escolha a porta que será premiada.
 - Assim que terminar de configurar, clique em Iniciar para começar o jogo
 
-## Projeto. 
+## Projeto...
 - Acesse [aqui](https://door-zeta.vercel.app/).
